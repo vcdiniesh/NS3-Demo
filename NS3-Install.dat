@@ -1,0 +1,26 @@
+///*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/
+
+			//Installing and Testing ns-3 with NetAnim on Ubuntu 14.04
+
+///*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/**/
+
+This describes a step-by-step procedure to download, install and test ns-3 with NetAnim on Ubuntu 16.04 LTS.
+
+ns-3 version considered: ns-allinone-3.28
+
+ Installing Prerequisite Packages by using Terminal (Ctrl + Alt + T):
+
+Step 1: sudo apt-get install gcc g++ python python-dev mercurial qt4-dev-tools tcpdump wireshark gnuplot
+
+Step 2: Download (Current Release) and place downloaded tarball in the Desktop or /home or Directory and then follow the steps given below to 		install it:
+	
+	step2.1: https://www.nsnam.org/release/ns-allinone-3.28.tar.bz2
+	step2.1: tar xjf ns-allinone-3.20.tar.bz2 
+	step2.1: ./build.py --enable-examples --enable-tests
+
+After a while, you may see the following message
+
+NOTE:Leaving directory './ns-3.xx'
+     which indicates that ns-3 is installed !!!
+
+
